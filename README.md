@@ -190,7 +190,7 @@ plt.axis("off")
 
 <img width="550" height="550" alt="image" src="https://github.com/user-attachments/assets/5d830df5-e969-4ede-b137-e59671d5d3b2" />
 
-## Step 13: Convert HSV back to RGB
+## Step 12: Convert HSV back to RGB
 ```
 # Convert HSV back to RGB
 image_hsv_to_rgb = cv2.cvtColor(image_hsv, cv2.COLOR_HSV2RGB)
@@ -203,7 +203,7 @@ plt.axis("off")
 <img width="550" height="550" alt="image" src="https://github.com/user-attachments/assets/348e5ef4-4ce9-4e74-bcc6-be86c4ab93dd" />
 
 
-## Step 14: White Block
+## Step 13: White Block
 ```
 # Modify a block of pixels (300x300) to white, starting from (200, 200)
 image[200:500, 200:500] = [255, 255, 255]  # Rows: 200-499, Columns: 200-499
@@ -221,7 +221,7 @@ plt.show()
 <img width="550" height="550" alt="image" src="https://github.com/user-attachments/assets/8199e4cc-7eb9-4e51-bf52-81a0734e3ca0" />
 
 
-## Step 15: Resize Of Image
+## Step 14: Resize Of Image
 ```
 image = cv2.imread('Eagle_in_Flight.jpg')
 image.shape
@@ -249,7 +249,7 @@ plt.show()
 <img width="550" height="550" alt="image" src="https://github.com/user-attachments/assets/c289d956-8e0c-4516-9bf4-fc788d9399e2" />
 
 
-## Step 16: Crop
+## Step 15: Crop
 ```
 image = cv2.imread('Eagle_in_Flight.jpg')
 
@@ -269,7 +269,7 @@ plt.show()
 <img width="550" height="550" alt="image" src="https://github.com/user-attachments/assets/c717833d-41e2-4f29-8846-11e7c7a7d39a" />
 
 
-## Step 17: Horizontal Flip
+## Step 16: Horizontal Flip
 ```
 image = cv2.imread('Eagle_in_Flight.jpg')
 
@@ -288,7 +288,7 @@ plt.axis("off")
 <img width="550" height="550" alt="image" src="https://github.com/user-attachments/assets/ea21169d-274f-4523-a0d6-54141fbb1112" />
 
 
-## Step 18: Vertical Flip
+## Step 17: Vertical Flip
 ```
 # Flip the image vertically (up-down)
 flipped_vertically = cv2.flip(image, 0)
