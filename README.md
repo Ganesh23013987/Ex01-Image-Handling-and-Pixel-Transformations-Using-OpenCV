@@ -266,7 +266,7 @@ plt.axis("off")
 plt.show() 
 ```
 
-<img width="550" height="550" alt="image" src="https://github.com/user-attachments/assets/c717833d-41e2-4f29-8846-11e7c7a7d39a" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/c717833d-41e2-4f29-8846-11e7c7a7d39a" />
 
 
 ## Step 16: Horizontal Flip
