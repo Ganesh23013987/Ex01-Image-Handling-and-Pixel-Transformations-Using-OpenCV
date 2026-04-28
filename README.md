@@ -1,3 +1,5 @@
+# Ex01-Image Handling and Pixel Transformations Using OpenCV
+
 ## AIM:
 Write a Python program using OpenCV that performs the following tasks:
 
@@ -53,7 +55,7 @@ plt.axis('off')  # Removes axis ticks and labels
 plt.show()
 ```
 
-<img width="864" height="737" alt="image" src="https://github.com/user-attachments/assets/3633842d-9f2f-491c-87e4-61bc8380fb19" />
+<img width="550" height="550" alt="image" src="https://github.com/user-attachments/assets/3633842d-9f2f-491c-87e4-61bc8380fb19" />
 
 
 ## Step 3: Print image size
@@ -73,7 +75,7 @@ plt.axis('off')
 plt.show()
 ```
 
-<img width="791" height="659" alt="image" src="https://github.com/user-attachments/assets/b3bb7296-7474-4a2c-b0f1-2b5a2a954d2b" />
+<img width="550" height="550" alt="image" src="https://github.com/user-attachments/assets/b3bb7296-7474-4a2c-b0f1-2b5a2a954d2b" />
 
 ## Step 5: Draw Circle on eagle image
 ```
@@ -91,7 +93,7 @@ plt.axis('off')
 plt.show()
 ```
 
-<img width="838" height="694" alt="image" src="https://github.com/user-attachments/assets/38f27525-374d-4b03-92b1-3e0e9ad9439d" />
+<img width="550" height="550" alt="image" src="https://github.com/user-attachments/assets/38f27525-374d-4b03-92b1-3e0e9ad9439d" />
 
 
 ## Step 6: Draw Rectangle to fit te outline of image
@@ -111,7 +113,7 @@ plt.axis('off')
 plt.show()
 ```
 
-<img width="851" height="708" alt="image" src="https://github.com/user-attachments/assets/51642393-1861-43bc-b74b-1e81d4a2ed5e" />
+<img width="550" height="550" alt="image" src="https://github.com/user-attachments/assets/51642393-1861-43bc-b74b-1e81d4a2ed5e" />
 
 
 ## Step 7: Add Text On Image
@@ -130,7 +132,7 @@ plt.axis('off')
 plt.show()
 ```
 
-<img width="852" height="702" alt="image" src="https://github.com/user-attachments/assets/5826f2a5-b970-4406-9f49-bf9da5e9bfd3" />
+<img width="550" height="550" alt="image" src="https://github.com/user-attachments/assets/5826f2a5-b970-4406-9f49-bf9da5e9bfd3" />
 
 ## Step 8: Load the image and convert to RGB image
 ```
@@ -145,7 +147,7 @@ plt.title("Original RGB Image")
 plt.axis("off")
 ```
 
-<img width="844" height="698" alt="image" src="https://github.com/user-attachments/assets/c6b0c0c4-5b0f-4889-b453-22ea41859d80" />
+<img width="550" height="550" alt="image" src="https://github.com/user-attachments/assets/c6b0c0c4-5b0f-4889-b453-22ea41859d80" />
 
 ## Step 9: Convert RGB to HSV
 ```
@@ -158,7 +160,7 @@ plt.title("HSV Image")
 plt.axis("off")
 ```
 
-<img width="838" height="702" alt="image" src="https://github.com/user-attachments/assets/3c06afa4-01a1-4e2f-956a-ba0f6a8b420b" />
+<img width="550" height="550" alt="image" src="https://github.com/user-attachments/assets/3c06afa4-01a1-4e2f-956a-ba0f6a8b420b" />
 
 
 ## Step 10: Convert RGB to Gray
@@ -172,7 +174,7 @@ plt.title("Grayscale Image")
 plt.axis("off")
 ```
 
-<img width="840" height="690" alt="image" src="https://github.com/user-attachments/assets/047bd31d-107c-4e73-a912-1968295fc2ad" />
+<img width="550" height="550" alt="image" src="https://github.com/user-attachments/assets/047bd31d-107c-4e73-a912-1968295fc2ad" />
 
 
 ## Step 11: Convert RGB to YCrCb
@@ -186,7 +188,7 @@ plt.title("YCrCb Image")
 plt.axis("off")
 ```
 
-<img width="835" height="701" alt="image" src="https://github.com/user-attachments/assets/5d830df5-e969-4ede-b137-e59671d5d3b2" />
+<img width="550" height="550" alt="image" src="https://github.com/user-attachments/assets/5d830df5-e969-4ede-b137-e59671d5d3b2" />
 
 ## Step 13: Convert HSV back to RGB
 ```
@@ -198,7 +200,7 @@ plt.title("HSV to RGB Image")
 plt.axis("off")
 ```
 
-<img width="837" height="693" alt="image" src="https://github.com/user-attachments/assets/348e5ef4-4ce9-4e74-bcc6-be86c4ab93dd" />
+<img width="550" height="550" alt="image" src="https://github.com/user-attachments/assets/348e5ef4-4ce9-4e74-bcc6-be86c4ab93dd" />
 
 
 ## Step 14: White Block
@@ -216,7 +218,7 @@ plt.axis("off")
 plt.show()
 ```
 
-<img width="838" height="703" alt="image" src="https://github.com/user-attachments/assets/8199e4cc-7eb9-4e51-bf52-81a0734e3ca0" />
+<img width="550" height="550" alt="image" src="https://github.com/user-attachments/assets/8199e4cc-7eb9-4e51-bf52-81a0734e3ca0" />
 
 
 ## Step 15: Resize Of Image
@@ -244,7 +246,7 @@ plt.title("Resized Image (Half Size)")
 plt.axis("off")
 plt.show()
 ```
-<img width="843" height="698" alt="image" src="https://github.com/user-attachments/assets/c289d956-8e0c-4516-9bf4-fc788d9399e2" />
+<img width="550" height="550" alt="image" src="https://github.com/user-attachments/assets/c289d956-8e0c-4516-9bf4-fc788d9399e2" />
 
 
 ## Step 16: Crop
@@ -264,7 +266,7 @@ plt.axis("off")
 plt.show() 
 ```
 
-<img width="656" height="703" alt="image" src="https://github.com/user-attachments/assets/c717833d-41e2-4f29-8846-11e7c7a7d39a" />
+<img width="550" height="550" alt="image" src="https://github.com/user-attachments/assets/c717833d-41e2-4f29-8846-11e7c7a7d39a" />
 
 
 ## Step 17: Horizontal Flip
@@ -283,7 +285,7 @@ plt.title("Flipped Horizontally")
 plt.axis("off")
 ```
 
-<img width="836" height="696" alt="image" src="https://github.com/user-attachments/assets/ea21169d-274f-4523-a0d6-54141fbb1112" />
+<img width="550" height="550" alt="image" src="https://github.com/user-attachments/assets/ea21169d-274f-4523-a0d6-54141fbb1112" />
 
 
 ## Step 18: Vertical Flip
@@ -299,7 +301,7 @@ plt.imshow(flipped_vertically_rgb)
 plt.title("Flipped Vertically")
 plt.axis("off")
 ```
-<img width="839" height="696" alt="image" src="https://github.com/user-attachments/assets/c906f2d3-44a4-45f3-9198-5205d8d8bdd1" />
+<img width="550" height="550" alt="image" src="https://github.com/user-attachments/assets/c906f2d3-44a4-45f3-9198-5205d8d8bdd1" />
 
 
 ## Result:
